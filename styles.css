@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.navItem{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+.navItem:hover{
+    color: #3597ff;
+}
+
+.head{
+    display: flex;
+    padding: 1% 10% 1% 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headLogo{
+    justify-self: flex-start;
+    margin-top: 0.5%;
+}
+
+nav{
+    display: flex;
+    justify-self: center;
+    justify-content: space-evenly;
+}
+
+.signInButton{
+    border: none;
+    background-color: #3597ff;
+    color: white;
+    border-radius: 5px;
+    width: 12%;
+    height: 3pc;
+    justify-content: flex-end;
+}
+
+
+.startSect{
+    display: flex;
+    background-color: #3597ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 15% 0% 10%;
+}
+
+.startSectImg{
+    margin-top: 2.5%;
+    height: 25pc;
+}
+
+.startSectTxt{
+    color: white;
+}
+
+.startSectTxt1{
+    font-size: 30pt;
+    font-weight: 400;
+}
+
+.startSectTxt{
+    font-size: 12pt;
+    font-weight: 600;
+}
