@@ -47,7 +47,6 @@ nav{
     display: flex;
     background-color: #3597ff;
     justify-content: space-between;
-    align-items: center;
     padding: 0% 15% 0% 10%;
 }
 
@@ -56,8 +55,15 @@ nav{
     height: 25pc;
 }
 
+.startSectImgO{
+    margin-top: 2.5%;
+    margin-left: 25%;
+    height: 25pc;
+}
+
 .startSectTxt{
     color: white;
+    margin-top: 5%;
 }
 
 .startSectTxt1{
@@ -67,5 +73,53 @@ nav{
 
 .startSectTxt{
     font-size: 12pt;
+    font-weight: 600;
+}
+
+
+
+
+
+.whySect{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.whySectTxt1{
+    font-size: 30pt;
+    font-weight: 400;
+}
+
+.whySectTxt2{
+    margin-top: 5%;
+    font-size: 12pt;
+    font-weight: 600;
+    color: #7285a3;
+}
+
+.benefitsSect{
+    display: flex;
+    margin-top: 2.5%;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    justify-content: space-between;
+}
+
+.benefitsSectItem{
+    padding: 0% 1.5% 0% 1.5%;
+}
+
+.benefitsSectItemHead{
+    font-size: 15pt;
+    font-weight: 700;
+}
+
+.benefitsSectItemTxt{
+    font-size: 10pt;
+    color: #7285a3;
     font-weight: 600;
 }
