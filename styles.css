@@ -3,6 +3,18 @@ body{
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+.descriptionGrey{
+    font-size: 12pt;
+    font-weight: 600;
+    color: #7285a3;
+}
+
+.head30{
+    font-size: 30pt;
+    font-weight: 400;
+}
+
+
 .navItem{
     text-decoration: none;
     color: black;
@@ -43,6 +55,9 @@ nav{
 }
 
 
+/*StartSect*/
+
+
 .startSect{
     display: flex;
     background-color: #3597ff;
@@ -77,7 +92,7 @@ nav{
 }
 
 
-
+/*WhySect*/
 
 
 .whySect{
@@ -89,23 +104,19 @@ nav{
     padding-right: 10%;
 }
 
-.whySectTxt1{
-    font-size: 30pt;
-    font-weight: 400;
+.descriptionGrey.why{
+    margin-top: 5%;
 }
 
-.whySectTxt2{
-    margin-top: 5%;
-    font-size: 12pt;
-    font-weight: 600;
-    color: #7285a3;
-}
+
+/*BenefitsSect*/
+
 
 .benefitsSect{
     display: flex;
     margin-top: 2.5%;
-    padding-left: 17.5%;
-    padding-right: 17.5%;
+    padding-left: 25%;
+    padding-right: 25%;
     justify-content: space-between;
 }
 
@@ -122,4 +133,104 @@ nav{
     font-size: 10pt;
     color: #7285a3;
     font-weight: 600;
+}
+
+
+/*VisionSect*/
+
+
+.visionSect{
+    display: flex;
+    margin: 7.5% 15% 7.5% 15%;
+    align-items: center;
+}
+
+.visionBlocks{
+    width: 100%;
+    display: flex;
+    margin: 0 0 0 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.visionBlock{
+    width: 35%;
+    display: flex;
+    background-color: #3597ff;
+    align-items: flex-end;
+    flex-direction: column;
+    border-radius: 2.5%;
+    padding: 0 2.5% 0 0;
+    margin: 0 0 2.5% 2.5%;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.visionBlock.b{
+    background-color: #F1F7FD;
+    color: #5B94D7;
+}
+
+.visionBlock.g{
+    background-color: #D7F8EB;
+    color: #5CC19A;
+}
+
+.visionBlock.y{
+    background-color: #F8F3D7;
+    color: #DBCA68;
+}
+
+.visionBlock.r{
+    background-color: #F8D7D7;
+    color: #B95E73;
+}
+
+.visionBlockNum{
+    font-size: 70pt;
+    margin: 0;
+}
+
+
+/*LabsSect*/
+
+
+.labsSect{
+    display: flex;
+    margin: 7.5% 15% 7.5% 15%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.head30.labs{
+    padding-right: 5%;
+}
+
+.labBox{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 0 0.5% 0 0.5%;
+    padding: 0 2% 2% 2%;
+    border-radius: 2.5%;
+    transition: 0.3s;
+}
+
+.labBox:hover{
+    box-shadow: #dfdfdf 0px 0px 15px;
+}
+
+.labHead{
+    font-size: 16pt;
+}
+
+.labArrow{
+    width: 15%;
+    transition: 0.3s;
+    justify-self: flex-end;
+}
+
+.labBox:hover .labArrow{
+    filter: invert(46%) sepia(94%) saturate(1804%) hue-rotate(192deg) brightness(102%) contrast(101%);
 }
