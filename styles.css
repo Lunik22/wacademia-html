@@ -197,7 +197,7 @@ nav{
 
 .labsSect{
     display: flex;
-    margin: 7.5% 15% 7.5% 15%;
+    margin: 7.5% 15% 5% 15%;
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -233,4 +233,63 @@ nav{
 
 .labBox:hover .labArrow{
     filter: invert(46%) sepia(94%) saturate(1804%) hue-rotate(192deg) brightness(102%) contrast(101%);
+}
+
+
+/*LocationsSect*/
+
+
+.locationsSect{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head30.locationsHead30{
+    text-align: center;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 20% 0% 20%;
+}
+
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+.locationImg{
+    height: 200pt;
+}
+
+.locationSvg{
+    height: 15pt;
+    margin-left: 1%;
+}
+
+.locationAdress{
+    display: flex;
+    align-items: center;
+}
+
+.locationName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.locationHead{
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.locationUrl{
+    text-decoration: none;
+    color: #3597ff;
+    font-weight: 600;
+    font-size: 14pt;
 }
