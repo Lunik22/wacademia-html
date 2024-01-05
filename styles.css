@@ -18,7 +18,7 @@ body{
 .navItem{
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 11pt;
 }
 
@@ -227,7 +227,6 @@ nav{
 
 .labArrow{
     width: 15%;
-    transition: 0.3s;
     justify-self: flex-end;
 }
 
@@ -252,7 +251,7 @@ nav{
 .locations{
     display: flex;
     justify-content: space-between;
-    margin: 0% 20% 0% 20%;
+    margin: 0% 20% 2.5% 20%;
 }
 
 
@@ -292,4 +291,97 @@ nav{
     color: #3597ff;
     font-weight: 600;
     font-size: 14pt;
+}
+
+
+/*OpinionsSect*/
+
+
+.opinionsSect{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5% 15% 0 15%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F9FF;
+}
+
+.opinionsImg{
+    height: 400pt;
+    
+}
+
+.opinion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descriptionGrey.opinion{
+    padding: 0 0 0 2.5%;
+}
+
+.quoteImg{
+    position: absolute;
+    
+}
+
+.quoter{
+    display: flex;
+    align-items: center;
+    padding-top: 2.5%;
+}
+
+.quoterTxt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.descriptionGrey.quoter{
+    padding: 0;
+    height: 0;
+    font-size: 10pt;
+}
+
+.quoterImg{
+    align-self: center;
+}
+
+
+/*JoinSect*/
+
+
+.joinSect{
+    display: flex;
+    margin: 2.5% 15% 0 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head30.join{
+    text-align: center;
+}
+
+.joinBoxes{
+    display: flex;
+    margin-top: 2.5%;
+}
+
+.labHead.join{
+    height: 0;
+}
+
+.labArrow.join{
+    width: 12.5%;
+}
+
+.labBox.join{
+    padding-bottom: 1.5%;
+}
+
+.joinBoxBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
 }
