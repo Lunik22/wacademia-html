@@ -14,6 +14,16 @@ body{
     font-weight: 400;
 }
 
+.head14{
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.head20{
+    font-size: 20pt;
+    font-weight: 600;
+}
+
 
 .navItem{
     text-decoration: none;
@@ -384,4 +394,60 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-end;
+}
+
+
+/*studentProjects*/
+
+
+.studentProjectsSect{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 0 0;
+}
+
+.studentProjectsHead{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+}
+
+.studentProject{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5% 15% 0 15%;
+}
+
+.studentProjectImg{
+    aspect-ratio: 16/9;
+    height: 250pt;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.studentProjectTxt{
+    margin-right: 25%;
+}
+
+.head20.projects{
+    margin: 10% 0 10% 0;
+}
+
+.studentProjectLink{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.labArrow.projects{
+    width: 10%;
+    filter: invert(46%) sepia(94%) saturate(1804%) hue-rotate(192deg) brightness(102%) contrast(101%);
+}
+
+.studentProjectUrl{
+    text-decoration: none;
+    color: #3597ff;
+    font-weight: 600;
 }
