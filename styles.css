@@ -19,11 +19,22 @@ body{
     font-weight: 500;
 }
 
+.head16{
+    font-size: 16pt;
+    font-weight: 600;
+}
+
 .head20{
     font-size: 20pt;
     font-weight: 600;
 }
 
+hr{
+    border: 0;
+    height: 1px;
+    background: #DBECFF;
+    margin: 0 14% 0 14%;
+}
 
 .navItem{
     text-decoration: none;
@@ -403,7 +414,7 @@ nav{
 .studentProjectsSect{
     display: flex;
     flex-direction: column;
-    margin: 5% 0 0 0;
+    margin: 5% 0 1.5% 0;
 }
 
 .studentProjectsHead{
@@ -450,4 +461,114 @@ nav{
     text-decoration: none;
     color: #3597ff;
     font-weight: 600;
+}
+
+
+/*specialSect*/
+
+
+.specialSect{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0 1.5% 0;
+}
+
+.head30.special{
+    text-align: center;
+}
+
+.specials{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5% 25% 0 25%;
+}
+
+.special{
+    padding: 0 1.5% 1.5% 1.5%;
+}
+
+
+/*meetSect*/
+
+
+.meetSect{
+    display: flex;
+    margin: 5% 0 1.5% 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+descriptionGrey.meet{
+    height: 5pt;
+}
+
+.head16.meet{
+    height: 10pt;
+}
+
+.meetImg{
+    height: 275pt;
+    border-radius: 1.5%;
+}
+
+.meets{
+    display: flex;
+    margin: 0 15% 0 15%;
+    flex-wrap: wrap;
+}
+
+.meet{
+    padding: 1%;
+}
+
+
+/*supportUsSect*/
+
+
+.supportUsSect{
+    display: flex;
+    margin: 5% 15% 1.5% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.supportUsImg{
+    height: 325pt;
+}
+
+.supportUs{
+    margin-left: 2.5%;
+}
+
+.head30.supportUs{
+    font-size: 24pt;
+}
+
+.studentProjectLink.supportUs{
+    margin-top: 5%;
+}
+
+.labArrow.supportUsArrow{
+    width: 5%;
+    filter: invert(46%) sepia(94%) saturate(1804%) hue-rotate(192deg) brightness(102%) contrast(101%);
+}
+
+
+/*whoSect*/
+
+
+.whoSect{
+    display: flex;
+    margin: 5% 20% 1.5% 15%;
+    justify-content: space-between;
+}
+
+.whoImgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.whoImg{
+    margin: 0 0 0 5%;
 }
