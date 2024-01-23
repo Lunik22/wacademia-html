@@ -3,10 +3,15 @@ body{
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+:root{
+    --main-color: #3597ff;
+    --description-color: #7285a3;
+}
+
 .descriptionGrey{
-    font-size: 12pt;
+    font-size:var(--main-color)pt;
     font-weight: 600;
-    color: #7285a3;
+    color: var(--description-color);
 }
 
 .head30{
@@ -44,7 +49,7 @@ hr{
 }
 
 .navItem:hover{
-    color: #3597ff;
+    color: var(--main-color);
 }
 
 .head{
@@ -61,22 +66,31 @@ hr{
 nav{
     display: flex;
     justify-self: center;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 .navItems{
+    display: flex;
     align-self: center;
+    justify-content: space-between;
 }
 
 .signInButton{
     border: none;
-    background-color: #3597ff;
+    background-color: var(--main-color);
     color: white;
     border-radius: 5px;
     width: 12%;
     height: 3pc;
     justify-content: flex-end;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+    
+}
+
+.signInButtonTxt{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -85,7 +99,7 @@ nav{
 
 .startSect{
     display: flex;
-    background-color: #3597ff;
+    background-color: var(--main-color);
     justify-content: space-between;
     padding: 0% 15% 0% 10%;
 }
@@ -156,7 +170,7 @@ nav{
 
 .benefitsSectItemTxt{
     font-size: 10pt;
-    color: #7285a3;
+    color: var(--description-color);
     font-weight: 600;
 }
 
@@ -181,7 +195,7 @@ nav{
 .visionBlock{
     width: 35%;
     display: flex;
-    background-color: #3597ff;
+    background-color: var(--main-color);
     align-items: flex-end;
     flex-direction: column;
     border-radius: 2.5%;
@@ -313,7 +327,7 @@ nav{
 
 .locationUrl{
     text-decoration: none;
-    color: #3597ff;
+    color: var(--main-color);
     font-weight: 600;
     font-size: 14pt;
 }
@@ -463,7 +477,7 @@ nav{
 
 .studentProjectUrl{
     text-decoration: none;
-    color: #3597ff;
+    color: var(--main-color);
     font-weight: 600;
 }
 
@@ -618,7 +632,7 @@ descriptionGrey.meet{
 
 .modernSectBtn{
     border: none;
-    background-color: #3597ff;
+    background-color: var(--main-color);
     color: white;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 700;
@@ -693,4 +707,78 @@ descriptionGrey.meet{
     height: 15pt;
     filter: invert(46%) sepia(94%) saturate(1804%) hue-rotate(192deg) brightness(102%) contrast(101%);
 
+}
+
+
+/*footer*/
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: end;
+    margin: 5% 15% 1.5% 15%;
+}
+
+.descriptionGrey.footerTxt{
+    font-size: 10pt;
+}
+
+.descriptionGrey.footerTxt:hover{
+    color: #286CD0;
+}
+
+.footerUrls{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footerUrl{
+    text-decoration: underline var(--description-color);
+    margin-right: 15%;
+}
+
+.footerUrl:hover{
+    color: #286CD0;
+
+}
+
+.footerSocials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 7.5%;
+}
+
+.footerSocial{
+    width: 15pt;
+    
+}
+
+.footerSocialA{
+    padding: 1%;
+}
+
+.footerRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*registration*/
+
+
+.registrationDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15% 2.5% 15%;
+    text-align: center;
+    background-color: var(--main-color);
+}
+
+.head30.registration{
+    color: white;
 }
