@@ -6,6 +6,7 @@ body{
 :root{
     --main-color: #3597ff;
     --description-color: #7285a3;
+    --input-back-color: #D7EAFF;
 }
 
 .descriptionGrey{
@@ -330,6 +331,10 @@ nav{
     color: var(--main-color);
     font-weight: 600;
     font-size: 14pt;
+}
+
+.locationAdressName{
+    color: var(--description-color);
 }
 
 
@@ -679,7 +684,7 @@ descriptionGrey.meet{
     margin: 5% 15% 2.5% 15%;
     justify-content: space-between;
     align-items: center;
-    background-color: #D7EAFF;
+    background-color: var(--input-back-color);
     padding:  2% 5% 2% 5%;
     border-radius: 5pt;
 }
@@ -774,11 +779,42 @@ descriptionGrey.meet{
 .registrationDiv{
     display: flex;
     flex-direction: column;
-    padding: 5% 15% 2.5% 15%;
+    padding: 2.5% 15% 2.5% 15%;
     text-align: center;
     background-color: var(--main-color);
 }
 
 .head30.registration{
+    color: white;
+}
+
+.registrationTable{
+    display: flex;
+    background-color: var(--input-back-color);
+    padding: 2.5% 0.5% 2.5% 0.5%;
+    margin: 2.5% 22.5% 5% 22.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25pt;
+}
+
+.newsletterInput.registrationIn{
+    width: 90%;
+    margin: 1.5% 0 1.5% 0;
+}
+
+.newsletterInput.registrationIn.check{
+    background-color: transparent;
+}
+
+.newsletterInputCheck{
+    margin-right: 2.5%;
+}
+
+.newsletterInput.registrationIn.submit{
+    background-color: var(--main-color);
+}
+
+.newsletterInputTxt.submit{
     color: white;
 }
